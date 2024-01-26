@@ -579,6 +579,18 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
+"use strict";
+const url = "https://dahlgren.miun.se/ramschema_ht23.php";
+window.onload = init;
+async function init() {
+    try {
+        const response = await fetch(url);
+        const kurskod = await response.json();
+        console.table(kurskod);
+    } catch  {
+        document.getElementById("error").innerHTML = "<p>N\xe5got gick fel</p>";
+    }
+}
 
 },{}]},["iqNlW","1SICI"], "1SICI", "parcelRequire0008")
 

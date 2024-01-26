@@ -585,11 +585,24 @@ window.onload = init;
 async function init() {
     try {
         const response = await fetch(url);
-        const kurskod = await response.json();
-        console.table(kurskod);
+        const kurser = await response.json();
+        displayKurser(kurser);
     } catch  {
         document.getElementById("error").innerHTML = "<p>N\xe5got gick fel</p>";
     }
+}
+function displayKurser(kurser) {
+    const kurserEl = document.getElementById("kurs-list");
+    // loopa igenom och skriv ut till dom
+    kurser.forEach((kurs)=>{
+        kurserEl.innerHTML += `
+            <tr>
+                <td>${kurs.code}</td>
+                <td>${kurs.coursename}</td>
+                <td>${kurs.progression}</td>
+            </tr>
+        `;
+    });
 }
 
 },{}]},["iqNlW","1SICI"], "1SICI", "parcelRequire0008")

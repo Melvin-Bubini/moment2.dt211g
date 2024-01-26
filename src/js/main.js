@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const url = "https://dahlgren.miun.se/ramschema_ht23.php";
 
@@ -11,11 +11,13 @@ async function init() {
         const kurskodTd = document.getElementById("kurskodTd");
         const namnTd = document.getElementById("namnTd");
         const progressionTd = document.getElementById("progressionTd");
+        const searchInput = document.getElementById("searchField");
 
         // eventlistner
         kurskodTd.addEventListener("click", kurskodSort);
         namnTd.addEventListener("click", namnSort);
         progressionTd.addEventListener("click", progressionSort);
+        searchInput.addEventListener("input", updateSearch);
 
         // sortera data utifårn kurskod
         function kurskodSort() {
@@ -42,12 +44,19 @@ async function init() {
             displayKurser(kurser)
         }
 
-
         // filtrera data
-        // let filteredKurser = kurser.filter((kurs) => {
-        //     return kurs.coursename.toLowerCase().includes("we");
-        // });
+        function updateSearch() {
+            // Hämta användarens inmatning och omvandla till små bokstäver
+            const searchTerm = document.getElementById("searchField").value.toLowerCase();
 
+            let filteredKurser = kurser.filter((kurs) => {
+                return kurs.coursename.toLowerCase().includes(searchTerm) ||
+                    kurs.code.toLowerCase().includes(searchTerm);
+            });
+            const kurserEl = document.getElementById("kurs-list");
+            kurserEl.innerHTML = "";
+            displayKurser(filteredKurser);
+        }
 
         displayKurser(kurser)
     } catch {

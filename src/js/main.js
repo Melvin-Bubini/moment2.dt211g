@@ -8,15 +8,40 @@ async function init() {
     try {
         const response = await fetch(url);
         const kurser = await response.json();
+        const kurskodTd = document.getElementById("kurskodTd");
+        const namnTd = document.getElementById("namnTd");
+        const progressionTd = document.getElementById("progressionTd");
 
-        // sortera data utifårn kursnamn
-        // kurser.sort((a, b) => (a.coursename > b.coursename) ? 1 : -1);
+        // eventlistner
+        kurskodTd.addEventListener("click", kurskodSort);
+        namnTd.addEventListener("click", namnSort);
+        progressionTd.addEventListener("click", progressionSort);
 
-        // sortera data utifrån kurskod
-        // kurser.sort((a, b) => (a.code > b.code) ? 1 : -1);
+        // sortera data utifårn kurskod
+        function kurskodSort() {
+            kurser.sort((a, b) => (a.code > b.code) ? 1 : -1);
+            const kurserEl = document.getElementById("kurs-list");
+            kurserEl.innerHTML = "";
+            displayKurser(kurser)
+        }
+
+
+        // sortera data utifrån kursnamn
+        function namnSort() {
+            kurser.sort((a, b) => (a.coursename > b.coursename) ? 1 : -1);
+            const kurserEl = document.getElementById("kurs-list");
+            kurserEl.innerHTML = "";
+            displayKurser(kurser)
+        }
 
         // sortera data utifrån progression
-        // kurser.sort((a, b) => (a.progression > b.progression) ? 1 : -1);
+        function progressionSort() {
+            kurser.sort((a, b) => (a.progression > b.progression) ? 1 : -1);
+            const kurserEl = document.getElementById("kurs-list");
+            kurserEl.innerHTML = "";
+            displayKurser(kurser)
+        }
+
 
         // filtrera data
         // let filteredKurser = kurser.filter((kurs) => {

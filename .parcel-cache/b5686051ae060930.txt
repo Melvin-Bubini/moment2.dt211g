@@ -1,5 +1,5 @@
 5936
-61C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\package.json133507331486710585 0
+61C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\package.json133509874266853206 0
 138C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.win32-x64-msvc.node133507330625812920 0
 114C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\csso\node_modules\css-tree\lib\parser\SyntaxError.js133507330631273392 0
 104C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\posthtml\node_modules\posthtml-parser\dist133507330611146666 1
@@ -37,7 +37,7 @@
 86C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\dotenv-expand\index.d.ts133507330607258618 0
 88C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\svgo\plugins\reusePaths.js133507330625836705 0
 97C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\caniuse-lite\data\features\webgl.js133507330643624335 0
-53C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist133507337321086101 1
+53C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist133509874275110813 1
 87C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\chalk\source\templates.js133507330607510145 0
 95C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\svgo\plugins\removeHiddenElems.js133507330624766642 0
 89C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\lines-and-columns\README.md133507330608210217 0
@@ -66,7 +66,7 @@
 110C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@babel\code-frame\node_modules\has-flag\index.js133507330606205456 0
 92C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\mdn-data\css\units.schema.json133507330619380138 0
 105C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js133507330608545538 0
-63C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\src\index.html133507332849243166 0
+63C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\src\index.html133507502111883876 0
 87C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\htmlnano\lib\htmlnano.cjs133507330612998368 0
 107C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@swc\helpers\src\_assert_this_initialized.mjs133507330633295687 0
 78C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\stable\stable.js133507330607922023 0
@@ -95,9 +95,9 @@
 93C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\caniuse-lite\data\regions\LA.js133507330637038557 0
 88C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\picomatch\lib\picomatch.js133507330609497929 0
 96C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\type-fest\source\package-json.d.ts133507330618652380 0
-62C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\src\style.css133507331890279866 0
+62C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\src\style.css133507502126033546 0
 80C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\source-map\LICENSE133507330607331804 0
-63C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\src\js\main.js133507332000162403 0
+63C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\src\js\main.js133507502091705475 0
 93C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@swc\helpers\src\_ts_values.mjs133507330634869572 0
 122C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\css-select\node_modules\entities\lib\decode_codepoint.js.map133507330618528350 0
 105C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@swc\helpers\_\_inherits_loose\package.json133507330631582336 0
@@ -531,7 +531,7 @@
 81C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\react-error-overlay133507330611847353 1
 82C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@parcel\reporter-cli133507330616151867 1
 104C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\json-parse-even-better-errors\CHANGELOG.md133507330607137357 0
-72C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.2cdaf7bc.css133507337320906659 0
+72C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.2cdaf7bc.css133509874274710628 0
 93C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\utility-types\dist\index.js.map133507330612286210 0
 102C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@parcel\profiler\src\SamplingProfiler.js133507330610076205 0
 98C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\node-addon-api\napi-inl.deprecated.h133507330610201307 0
@@ -1193,7 +1193,7 @@
 109C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\csso\node_modules\css-tree\lib\walker\create.js133507330628580631 0
 94C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\semver\internal\parse-options.js133507330619569612 0
 113C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\caniuse-lite\data\features\constraint-validation.js133507330627262561 0
-75C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.18dbc454.js.map133507337320981429 0
+75C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.18dbc454.js.map133509874275081199 0
 90C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\svgo\plugins\minifyStyles.js133507330623315652 0
 114C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\page.js133507330630563046 0
 93C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\caniuse-lite\data\regions\AW.js133507330622402560 0
@@ -3159,7 +3159,7 @@
 102C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\css-what\lib\commonjs\stringify.d.ts.map133507330616065886 0
 92C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\css-what\lib\commonjs\types.js133507330612166933 0
 99C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\@swc\helpers\src\_new_arrow_check.mjs133507330634331243 0
-71C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.18dbc454.js133507337320926660 0
+71C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.18dbc454.js133509874275010546 0
 75C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\css-tree\data133507330632101671 1
 75C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\css-tree\dist133507330631920688 1
 93C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\caniuse-lite\data\regions\GF.js133507330634439202 0
@@ -5933,5 +5933,5 @@
 77C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\.bin\parcel.ps1133507330645927856 0
 73C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\.bin\semver133507330645927856 0
 93C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\node_modules\.bin\update-browserslist-db.cmd133507330645927856 0
-76C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.2cdaf7bc.css.map133507337320956623 0
-64C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.html133507337321075742 0
+76C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.2cdaf7bc.css.map133509874274810241 0
+64C:\Users\melvi\OneDrive\Skrivbord\moment2.dt211g\dist\index.html133507500175967793 0
